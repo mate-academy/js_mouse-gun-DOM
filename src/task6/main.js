@@ -23,12 +23,10 @@ document.addEventListener('mousemove', event => {
     left: ${event.clientX}px;
     top: ${event.clientY}px`;
     document.body.append(div);
-  } //else { ******** if need erase div's ********
-    // let divList = [...document.querySelectorAll('div')];
-    // for (let i = 0; i < divList.length; i++) {
-    //   divList[i].style.display = 'none';
-   // }
-  //}
+  } else {
+     let divList = [...document.querySelectorAll('div')];
+     for (let i = 0; i < divList.length; i++) {
+       divList[i].style.display = 'none';
+    }
+  }
 });
-
-
