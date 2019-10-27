@@ -1,10 +1,7 @@
-@import "utils";
-@import "fonts";
-@import "typography";
-
 body {
   background: #eee;
   overflow: hidden;
+  margin: 0;
 }
 
 .logo {
